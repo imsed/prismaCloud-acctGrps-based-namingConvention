@@ -21,9 +21,10 @@ The current code covers the exactly following scenario in its last lines:
 - create_account_groups_based_cloudAccounts : If a new Cloud Account is added, the script will check if it is matching the naming convention of your organization. If yes it will create an account group based on the name of the cloud account and removes that cloud Account from the Default Account Group  
 - assign_account_groups_based_cloudAccounts : Will check all the Cloud Account matching the naming convention and make sure they are associated to the correct Account Group
 - The script is valid for all CloudType
+- That lines can be changed to cover different scenarios or use cases.
 ## Variables examples:
 
 - azureOrgAccountsMatching shows all the Azure Cloud Accounts that matches the naming convention
 - azureOrgAccountsNotMatching shows all the Azure Cloud Accounts that matches the naming convention
 - nameConvention should contain the regex that define the organizaton naming convention
-- That lines can be changed to cover different scenarios or use cases.
+
