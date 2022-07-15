@@ -17,7 +17,7 @@ The script contains couple of functions that helps automat account groups creati
 
 The purpose of the script is to have dynamic adding of accounts to account groups. This is to make sure that all onboarded accounts are mapped to proper account groups automatically without manual intervention. The script can be run on a regular basis (e.g. daily) to constantly update the accounts.
 
-The current code covers the exactly following scenario in its last lines:
+The current code covers the  following scenario in its last lines:
 - create_account_groups_based_cloudAccounts : If a new Cloud Account is added, the script will check if it is matching the naming convention of your organization. If yes it will create an account group based on the name of the cloud account and removes that cloud Account from the Default Account Group  
 - assign_account_groups_based_cloudAccounts : Will check all the Cloud Account matching the naming convention and make sure they are associated to the correct Account Group
 - The script is valid for all CloudType
