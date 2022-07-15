@@ -11,6 +11,7 @@ SECRET_KEY --> introduce your Prisma Cloud SECRET KEY
 ## Functioning description:
 
 The script contains couple of functions that helps automat account groups creation and manipulation. The main use case is to create account groups based on the naming convention of Cloud Accounts.
+It is based on irgarcia21/prisma_cloud-move_accounts_to_account_groups
 
 
 ## Applicable use cases:
